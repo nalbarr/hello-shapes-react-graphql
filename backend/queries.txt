@@ -1,0 +1,17 @@
+query {
+  allShapes {
+    id
+    name
+  }
+}
+
+query {
+  categoryByName(name: "circular") {
+    id
+    name
+    shapes {
+      id
+      name
+    }
+  }
+}

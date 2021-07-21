@@ -1,0 +1,43 @@
+[
+    {
+        "model": "shapes.category",
+        "pk": 1,
+        "fields": {
+            "name": "circular"
+        }
+    },
+    {
+        "model": "shapes.category",
+        "pk": 2,
+        "fields": {
+            "name": "has sides"
+        }
+    },
+    {
+        "model": "shapes.shape",
+        "pk": 1,
+        "fields": {
+            "name": "Circle",
+            "area_expr": "pi * radius * radius",
+            "category": 1
+        }
+    },
+    {
+        "model": "shapes.shape",
+        "pk": 2,
+        "fields": {
+            "name": "Square",
+            "area_expr": "side * side",
+            "category": 2
+        }
+    },
+    {
+        "model": "shapes.shape",
+        "pk": 3,
+        "fields": {
+            "name": "Triangle",
+            "area_expr": ".5 * base * height",
+            "category": 2
+        }
+    }
+]
