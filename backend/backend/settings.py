@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "shapes",
     "graphene_django",
+    "django_extensions",
 ]
 
 MIDDLEWARE = [
